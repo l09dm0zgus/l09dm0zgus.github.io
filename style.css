@@ -1,0 +1,25 @@
+
+.color-dark 
+{
+    color: #1f1d2b;
+    background-color: #1f1d2b;
+}
+.carousel-inner img
+{
+    width: 100%;
+    height: 100%;
+}
+@font-face 
+{
+    font-family: font;
+    src: url(fonts/font.ttf);
+}
+  
+body
+{
+    font-family:font;
+}
+.tex-pos
+{
+    text-align: center;
+}
