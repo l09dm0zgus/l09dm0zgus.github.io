@@ -9,8 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="data.json"></script>
+  <script type="text/javascript" src="readfile.js"></script>
 </head>
-<body class="color-dark">
+<body class="color-dark" onload="loadMyFile()">
 <div class="text-center bg-dark text-white">
   <h1>Pure Hatred Games</h1>
 </div>
@@ -88,7 +90,8 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-      <p id="info">Error load file</p>
+      <p id="version"  >Error load file</p>
+      <p id="changes"  >Error load file</p>
       <a href="img/lol.zip" download>Скачать</a>
       </div>
 
